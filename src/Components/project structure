@@ -1,0 +1,37 @@
+POC_MERN_ANTD
+│
+├── server/
+│   ├── Controller/
+│   │   ├── rootadmin.controller.js
+│   │   └── user.controller.js
+│   ├── Model/
+│   │   ├── rootadmin.model.js
+│   │   └── user.model.js
+│   ├── Routes/
+│   │   ├── rootadmin.router.js
+│   │   └── user.router.js
+│   └── index.js
+│
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js --> 2 nd login and register form (Here only i need to implement the usertype === 1 then he is admin, usertype === 2 then he is user)
+│   │   │   ├── LandingPage.js
+│   │   │   
+│   │   ├── redux/
+│   │   │   ├── store.js
+│   │   │   └── userSlice.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── App.css
+│   │   ├── Register.js 1st register page
+│   │   ├── Login.js 1st login page
+│   │   ├── index.js
+│   ├── package.json
+│   └── ...
+│
+├── package.json
+└── README.md
